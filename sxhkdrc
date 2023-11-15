@@ -1,7 +1,7 @@
 #     Keybindings for BSPWM                                       
 # terminal 
 super + Return 
-    xfce4-terminal
+    konsole
 
 # tilda terminal
 super + shift + Return
@@ -70,13 +70,13 @@ super + control + q
 
 
 # volume control
-#XF86AudioRaiseVolume
+XF86AudioRaiseVolume
     pactl set-sink-volume 0 +5%
 
-#XF86AudioLowerVolume
+XF86AudioLowerVolume
     pactl set-sink-volume 0 -5%
 
-#XF86AudioMute
+XF86AudioMute
     pactl set-sink-mute 0 toggle
 
 # Night Light red
@@ -116,9 +116,6 @@ super + alt + x
 # Gap selector
 super + space
     bspc config window_gap {0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,40,50,60,70,80,90,90}
-
-
-
 
 
 
