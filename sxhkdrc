@@ -1,7 +1,7 @@
 #     Keybindings for BSPWM                                       
 # terminal 
 super + Return 
-    konsole
+    kitty
 
 # tilda terminal
 super + shift + Return
